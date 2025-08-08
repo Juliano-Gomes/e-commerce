@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Mouse",
+        "price": 19.99,
+        "description": "A comfortable and responsive wireless mouse with long battery life.",
+        "rating": 4.5,
+        "category": "Accessories",
+        "image": "https://media.istockphoto.com/id/155099981/pt/foto/um-novo-prata-rato-de-computador-isolado-a-branco.webp?s=1024x1024&w=is&k=20&c=PJIcseLTXJ3m7c4EEvPmCBU_5cvhfayvxB8MJnPabns="
+    },
+    {
+        "id": 2,
+        "name": "Mechanical Keyboard",
+        "price": 49.99,
+        "description": "Backlit mechanical keyboard with customizable RGB lighting.",
+        "rating": 4.7,
+        "category": "Accessories",
+        "image": "https://images.unsplash.com/photo-1626958390943-a70309376444?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 3,
+        "name": "Bluetooth Speaker",
+        "price": 29.95,
+        "description": "Portable Bluetooth speaker with excellent sound quality and waterproof design.",
+        "rating": 4.3,
+        "category": "Audio",
+        "image": "https://images.unsplash.com/photo-1589256469067-ea99122bbdc4?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 4,
+        "name": "USB-C Charger",
+        "price": 14.50,
+        "description": "Fast-charging USB-C wall charger with universal compatibility.",
+        "rating": 4.2,
+        "category": "Chargers",
+        "image": "https://media.istockphoto.com/id/2174294605/pt/foto/twisted-cable-with-standard-usb-and-usb-c-type-c-plugs-isolated-on-white.webp?s=1024x1024&w=is&k=20&c=vi4mPYCuM7iNINvBh1Z2u8bqv2iaEVZK4YBiuwmoUKI="
+    },
+    {
+        "id": 5,
+        "name": "Noise-Canceling Headphones",
+        "price": 89.99,
+        "description": "Over-ear headphones with active noise cancellation and high-fidelity sound.",
+        "rating": 4.8,
+        "category": "Audio",
+        "image": "https://images.unsplash.com/photo-1585298723682-7115561c51b7?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 6,
+        "name": "Smartwatch",
+        "price": 119.00,
+        "description": "Fitness-focused smartwatch with heart rate monitor and GPS.",
+        "rating": 4.4,
+        "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=327&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "Wearables"
+    },
+    {
+        "id": 7,
+        "name": "Webcam HD 1080p",
+        "price": 39.90,
+        "description": "High-definition webcam with built-in microphone for video calls and streaming.",
+        "rating": 4.1,
+        "category": "Cameras",
+        "image": "https://images.unsplash.com/photo-1670278458296-00ff8a63141e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 8,
+        "name": "Portable SSD 1TB",
+        "price": 129.99,
+        "description": "High-speed portable solid-state drive with USB 3.2 interface.",
+        "rating": 4.6,
+        "category": "Storage",
+        "image": "https://images.unsplash.com/photo-1577538926210-fc6cc624fde2?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 9,
+        "name": "Laptop Stand",
+        "price": 24.95,
+        "description": "Ergonomic aluminum laptop stand with adjustable height settings.",
+        "rating": 4.3,
+        "category": "Accessories",
+        "image": "https://media.istockphoto.com/id/1270433740/pt/foto/lower-body-of-female-with-electronics-and-accessories.webp?s=1024x1024&w=is&k=20&c=hzKpgypIBcl24rB_wOZ-SmvEeFdkRkrOxEzK5Vcgt7U="
+    },
+    {
+        "id": 10,
+        "name": "LED Desk Lamp",
+        "price": 22.99,
+        "description": "Dimmable LED desk lamp with touch control and USB charging port.",
+        "rating": 4.0,
+        "category": "Home Office",
+        "image": "https://images.unsplash.com/photo-1649230955954-108845001397?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 11,
+        "name": "Gaming Chair",
+        "price": 159.00,
+        "description": "Ergonomic gaming chair with lumbar support and reclining function.",
+        "rating": 4.6,
+        "category": "Furniture",
+        "image": "https://images.unsplash.com/photo-1670946839270-cc4febd43b09?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "id": 12,
+        "name": "4K Monitor 27\"",
+        "price": 299.99,
+        "description": "Ultra HD 27-inch monitor with IPS panel and HDR support.",
+        "rating": 4.9,
+        "category": "Monitors",
+        "image": "https://images.unsplash.com/photo-1675151638946-9fbe1c8b55d1?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]
