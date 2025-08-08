@@ -23,13 +23,19 @@ export const HeaderComponent =({cards,results}:{cards:number,results:(e:p[])=>vo
     }
 
     return(
-        <header className="flex flex-col sm:flex-row items-center gap-4 sm:h-[60px]  sm:justify-between sm:p-4 fixed bg-white w-full">
-            <nav className="border p-2 rounded font-poppins hover:bg-zinc-200 cursor-pointer">
-                <Link to="/">
-                    <span className="text-red-600  font-montserrat font-[font-weight:700]">E</span>
-                    <span>-commerce</span>
-                </Link>
-            </nav>
+        <header className="flex flex-col sm:flex-row items-center p-2 gap-2 sm:gap-4 sm:h-[60px]  sm:justify-between sm:p-4 fixed bg-white w-full">
+            <div className="flex items-center justify-between border w-full sm:w-[max-content] p-1 ">
+                <nav className="border p-2 rounded font-poppins  transition-all cursor-pointer hover:bg-zinc-700 ">
+                    <Link to="/">
+                        <span className="text-red-600  font-montserrat font-[font-weight:700]">E</span>
+                        <span>-commerce</span>
+                    </Link>
+                </nav>
+                <nav className="p-2 min-w-[120px] flex sm:hidden items-center justify-center">
+                        <ShoppingCart size={45} className="p-2 rounded hover:bg-zinc-600 hover:text-white font-montserrat cursor-pointer relative"/>
+                        {(cards > 0 ) && <span className="absolute top-1 right-[43px]  min-w-[20px] rounded-[50px] text-center text-white bg-red-600 font-montserrat text-sm">{cards}</span>}
+                </nav>
+            </div>
             <nav className="hidden grow p-2 rounded sm:flex justify-center items-center">
                 <ul className="flex items-center font-poppins sm:justify-between sm:w-[80%] lg:w-[60%]">
                     <li className="hover:text-white hover:bg-zinc-700 rounded p-2 transition-colors sm:mr-8">
@@ -39,17 +45,24 @@ export const HeaderComponent =({cards,results}:{cards:number,results:(e:p[])=>vo
                         <Link to="/about">About</Link>
                     </li>
                     <li className="grow flex items-center justify-center  rounded p-2 transition-colors">
-                        <section className="flex border p-2 rounded gap-2 min-w-[320px] max-w-[350px]">
+                        <section className="flex border-blue-400 border-2 p-2 rounded gap-2 min-w-[320px] max-w-[350px]">
                             <input type="text" placeholder="type a category name" onChange={Handle} className="grow outline-none border-none font-poppins"/>
                             <Search />
                         </section>
                     </li>
                 </ul>
             </nav>
-            <nav className="p-2 min-w-[120px] flex items-center justify-center">
+            <nav className="hidden p-2 min-w-[120px] sm:flex items-center justify-center">
                 <ShoppingCart size={45} className="p-2 rounded hover:bg-zinc-600 hover:text-white font-montserrat cursor-pointer relative"/>
                 {(cards > 0 ) && <span className="absolute top-1 right-[43px]  min-w-[20px] rounded-[50px] text-center text-white bg-red-600 font-montserrat text-sm">{cards}</span>}
             </nav>
+            <div className="flex sm:hidden items-center justify-center">
+                <section className="flex border-blue-400 border-2 p-2 rounded gap-2 min-w-[320px] max-w-[350px]">
+                    <input type="text" placeholder="type a category name" onChange={Handle} className="grow outline-none border-none font-poppins"/>
+                    <Search />
+                </section>
+                
+            </div>
         </header>
     )
 }

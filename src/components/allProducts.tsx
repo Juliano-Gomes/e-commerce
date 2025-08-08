@@ -13,10 +13,10 @@ type p={
 
 export const Product =({clicked,products}:{clicked:()=>void,products:p[]})=>{
     return(
-        <section className="grow flex items-center flex-wrap justify-center gap-3 p-3 pt-[65px]">
+        <section className="grow flex items-center flex-wrap justify-center gap-3 p-3 pt-[150px] sm:pt-[65px]">
             {products.map((e)=>(
-                <div key={e.id}  className=' gap-2  font-poppins border p-2 rounded flex flex-col items-center min-h-[450px] sm:w-[300px]'>
-                    <img src={e.image} alt={e.name} className='w-[200px] h-[200px] object-cover' />
+                <div key={e.id}  className=' gap-2  font-poppins border border-zinc-600 p-2 rounded flex flex-col items-center min-h-[450px] sm:w-[300px]'>
+                    <img src={e.image} alt={e.name} className='w-[200px] h-[200px] object-cover rounded' />
                     <div className='p-2 flex flex-col bg-zinc-100 rounded grow'>
                         <h1 className='text-xl font-montserrat sm:my-3'>{e.name}</h1>
                         <span className='text-sm p-1 flex text-start justify-start'>{e.description.slice(0,150)}...</span>
